@@ -1,5 +1,9 @@
 <template>
   <v-container class="text-center">
+    <v-img
+      src="/logo.png"
+      alt=""
+    ></v-img>
     <h1>About Me</h1>
     <v-row>
       <v-col cols="6">
@@ -20,7 +24,7 @@
         fixed
         dark
         fab
-        bottom
+        top
         right
         outlined
         color="pink lighten-4"
@@ -33,7 +37,7 @@
         fixed
         dark
         fab
-        bottom
+        top
         left
         outlined
         color="pink lighten-4"
